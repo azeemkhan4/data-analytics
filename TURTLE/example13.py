@@ -13,7 +13,7 @@ for i in range(50):
     pensize(random.randint(1,2))
     pencolor(colors[random.randint(0,4)])
     radius=random.randint(5,30)
-    fillcolor('red')
+    fillcolor('black')
     begin_fill()
     for i in range(6):
         circle(radius)
