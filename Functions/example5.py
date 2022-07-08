@@ -19,3 +19,4 @@ if __name__=='__main__':
     cate=input("which category do you have : ?? ")
     days=int(input("enter the number of days : ??"))
     print(f'you have to pay {fine(cate,days)}')
+    
